@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    height: 100vh;
+}
+
+#larga{
+    width: 30vh;
+}
+
+#corta{
+    float: right;    
+    width: 30vh;
+}
+
+
+.card{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    border-radius: 5%;
+    width : 50%;
+    height: 50%;
+    text-align: center;
+    padding: 5%;
+    
+}
+
+#contenido {
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.title {
+    font-size: 1.3vmax;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+
